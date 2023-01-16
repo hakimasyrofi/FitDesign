@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="50dp"
+                android:layout_height="7dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/btn_grey"/>
+
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:fontFamily="@font/nunito_bold"
+                android:textColor="@color/grey"
+                android:textAlignment="center"
+                android:id="@+id/nama_lengkap"
+                android:textSize="25sp"/>
+
+            <com.google.android.material.divider.MaterialDivider
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_marginVertical="15dp"
+                app:dividerColor="@color/light_grey"/>
+
+            <TextView
+                android:id="@+id/address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Address"
+                android:textColor="@color/grey"
+                android:paddingTop="15dp"
+                android:paddingHorizontal="35dp"
+                android:fontFamily="@font/nunito_medium"
+                android:textSize="16sp"/>
+
+
+            <TextView
+                android:id="@+id/experience"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Experience"
+                android:paddingTop="15dp"
+                android:paddingHorizontal="35dp"
+                android:textColor="@color/grey"
+                android:textSize="16sp"
+                android:fontFamily="@font/nunito_medium"/>
+
+            <TextView
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price"
+                android:paddingTop="10dp"
+                android:paddingHorizontal="35dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/nunito_medium"
+                android:textColor="@color/grey"/>
+
+            <Button
+                android:id="@+id/phoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Hubungi"
+                android:textSize="18sp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="50dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/nunito_medium"
+                android:background="@drawable/btn_green"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</androidx.appcompat.widget.LinearLayoutCompat>

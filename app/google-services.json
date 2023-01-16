@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "813772686232",
+    "project_id": "fitdesign-18dfb",
+    "storage_bucket": "fitdesign-18dfb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813772686232:android:aad8aa4b059d8e6d6b21ed",
+        "android_client_info": {
+          "package_name": "com.fitdesgin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813772686232-1hloo6jvglqtvda57s14frna0d7r5u8i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm4UDwR2iWO_zK2og_hd_Yt86W6sezYds"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813772686232-1hloo6jvglqtvda57s14frna0d7r5u8i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
